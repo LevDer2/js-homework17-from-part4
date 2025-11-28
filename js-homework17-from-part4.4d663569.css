@@ -1,4 +1,109 @@
-h1 {
-  color: pink;
+body {
+  background-color: #cbc7c7;
+}
+
+.title {
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  display: flex;
+}
+
+.photos {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section {
+  color: #00f;
+}
+
+.upload-photo {
+  cursor: pointer;
+  background: #ff2849;
+  border: none;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 172px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 9px 12px;
+  display: flex;
+}
+
+.lable {
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.button:hover {
+  background: #e52441;
+}
+
+.button:hover .svg-icon {
+  animation: 2s linear infinite flickering;
+}
+
+@keyframes flickering {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  52% {
+    opacity: 1;
+  }
+
+  54% {
+    opacity: 0;
+  }
+
+  56% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  94% {
+    opacity: 1;
+  }
+
+  96% {
+    opacity: 0;
+  }
+
+  98% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-left: 40px;
 }
 /*# sourceMappingURL=js-homework17-from-part4.4d663569.css.map */
